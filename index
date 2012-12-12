@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Template &middot; Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+        <link href="static/css/font-awesome.css" rel="stylesheet">
+   <link href='http://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 940px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span class="left-ear"><span class="left-ear-inner"></span></span><span class="face"> <span class="left-eye">.</span><span class="right-eye">.</span><i class="icon-chevron-down"></i></span><span class="right-ear"><span class="right-ear-inner"></span></span><h3 class="logo">Tweetmonkey</h3>
+      </div>
+
+
+
+      <div class="jumbotron">
+        <h1>Automagic your Twitter presence!</h1>
+        <p class="lead">Tweetmonkey works to get your twitter account more followers so that you can focus on doing awesome things. Tweetmonkey is customizable so that you will only attract real followers that will be interested in what you have to say. Sign up now and start reaching more people!</p>
+        <a class="btn btn-large btn-success" href="#">Sign up today</a>
+      </div>
+
+      <hr>
+
+ <div class="featurette">
+        <span class="steps pull-left">1</span>
+        <h2 class="featurette-heading " >Connect Your Twitter Account 
+        </div>
+
+      <hr class="featurette-divider">
+       <div class="featurette">
+       <span class="steps pull-left">2</span>
+        <h2 class="featurette-heading ">Identify Content Relevant to You
+      </div>
+      <hr class="featurette-divider">
+       <div class="featurette">
+        <span class="steps pull-left">3</span>
+        <h2 class="featurette-heading">Tell us when you want to Tweet </h2>
+      </div>
+       <hr class="featurette-divider">
+ <div class="featurette">
+       <span class="steps pull-left">4</span>
+        <h2 class="featurette-heading">Let Tweetmonkey get you followers </h2>
+      </div>
+
+
+<hr>
+     <div class="row">
+    <div class="span10 offset1" style="margin-top:40px;margin-left:115px;">
+        <ul id="pricing">
+            <li class="plan first">
+                <h3 class="title">Intro</h3>
+                <p class="price">Free</p>
+                <p class="description">Best for new kids on the block</p>
+                <hr>
+                <p class="files">Up to 500 followers</p>
+                <p class="extra"></p>
+                <hr>
+                <p class="feature" style="margin-top:20px">Customizable tweet schedule</p>
+                <p class="feature">Automated interactions</p>
+                <p class="feature">No robot followers</p>
+                <p class="feature">Up to 1000 tweets a day</p>
+                <p class="feature">Email Support</p>
+              </br>
+
+                <a href="#" class="signup btn btn-info">
+                    Sign Up
+                </a>
+            </li>
+            <li class="plan primary">
+                <h3 class="title">Popular</h3>
+                <p class="price">$20<small>/month</small></p>
+                <p class="description">Best for aspiring celebreties</p>
+                <hr>
+                <p class="files">Up to 10,000 followers<small></small></p>
+                <p class="extra"></p>
+                <hr>
+                <p class="feature popover-info" data-title="Customized to your Product" data-original-title="">Customizable Tweet Schedule</p>
+                <p class="feature popover-info" data-title="Conversion and Sync"  data-original-title="">Automated Interactions</p>
+                <p class="feature popover-info" data-title="Multiple Administrators"  data-original-title="">No Robot Followers</p>
+                <p class="feature popover-info" data-title="Understand your Users" data-original-title="">Insights and Analytics</p>
+                <p class="feature popover-info" data-title="Our commitment to Quality" data-original-title="">Up to 1000 Tweets a Day</p>
+                <p class="feature popover-info" data-title="Knowledgeable support at your fingertips" data-original-title="">Email and Phone Support</p>
+                <a href="https://developers.filepicker.io/register/pro" class="signup btn btn-primary">
+                    Sign Up
+                </a>
+                           </li>
+            <li class="plan last">
+                <h3 class="title">The Bieber</h3>
+                <p class="price">$99<small>/month</small></p>
+                <p class="description">Best for Winning Twitter</p>
+                <hr>
+                <p class="files">Unlimited Followers</p>
+                <p class="extra"></p>
+                <hr>
+                   <p class="feature">Customizable Tweet Schedule</p>
+                <p class="feature">Automated Interactions</p>
+                <p class="feature">No Robot Followers</p>
+                  <p class="feature">Insights and Analytics</p>
+                <p class="feature">Up to 1000 Tweets a Day</p>
+                <p class="feature">Email and Phone Support</p>
+                <a href="https://developers.filepicker.io/register/enterprise" class="signup btn btn-info">
+                    Sign Up
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+      <hr>
+
+      <div class="footer">
+        <p>&copy; Company 2012</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
