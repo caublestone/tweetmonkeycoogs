@@ -9,6 +9,9 @@
    padding:20px;
 
 }
+a:hover {
+  text-decoration: none;
+}
 body {
 	/*background-image:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/wp-content/themes/tweaker6/images/bgnoise.png');*/
 }
@@ -124,8 +127,7 @@ body {
 /*How it Works */
 
 .steps {
-    position:relative;
-
+  position:relative;
   padding:20px 24px;
   background-color:rgba(20,20,20,.1);
   border-radius:30px;
@@ -280,3 +282,80 @@ body {
 #faq h3 {
     margin: 20px 0 3px 0;
 }
+
+
+/*Onboarding style */
+
+.categories {
+  -moz-box-shadow: 0 0 1px #888;
+-webkit-box-shadow: 0 0 1px#888;
+box-shadow: 0 0 1px #888;
+padding-bottom:10px;
+margin-top:10px;
+}
+
+/* .remove-time {
+position: absolute;
+top: 0;
+color: #AAA;
+cursor: pointer;
+line-height: 1;
+font-size: 26px;
+margin-left: 5px;
+-moz-opacity: 0;
+-khtml-opacity: 0;
+-webkit-opacity: 0;
+opacity: 0;
+}
+
+.remove-time:hover {
+color: rgba(0,0,0,.4);
+cursor: pointer;
+line-height: 1;
+font-size: 26px;
+margin-left: 5px;
+-moz-opacity: 1;
+-khtml-opacity: 1;
+-webkit-opacity: 1;
+opacity: 1;
+}
+
+.clock:hover {
+-moz-opacity: 0;
+-khtml-opacity: 0;
+-webkit-opacity: 0;
+opacity: 0;
+
+} */
+#schedule-times{list-style:none;margin:10px 0 20px;}#schedule-times li{position:relative;}#schedule-times li i{color:#ebebeb;position:relative;top:-3px;margin-right:10px;font-size:18px;}
+#schedule-times li select{width:auto;display:inline;margin-bottom:10px;}
+#schedule-times li .remove-time{position:absolute;top:0;left:-4px;color:#aaa;cursor:pointer;line-height:1;font-size:28px;margin-left:13px;-moz-opacity:0;-khtml-opacity:0;-webkit-opacity:0;opacity:0;}
+#schedule-times li .remove-time:hover{color:#333;}
+#schedule-times li:hover .remove-time{-moz-opacity:1;-khtml-opacity:1;-webkit-opacity:1;opacity:1;}
+#schedule-times li:hover i{-moz-opacity:0;-khtml-opacity:0;-webkit-opacity:0;opacity:0;}
+
+#schedule-days-table{display:table;border-spacing:0;width:100%;margin:0px 0 0;}
+#schedule-days{clear:both;display:table-row;}
+#schedule-days .ui-button{display:table-cell;text-align:center;border:1px solid #b2b2b2;
+  border-left:1px solid #ddd;border-right:0;border-top:1px solid #eee;padding:10px 8px;
+  position:relative;width:14.28%;cursor:pointer;color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #5bb75b;
+  *background-color: #51a351;
+  background-repeat: repeat-x;
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+#schedule-days .ui-button span{color:#999;font-weight:bold;}
+#schedule-days .ui-button.ui-state-active{color: #ffffff;
+  background-color: #5bb75b;
+  *background-color: #51a351;
+  background-repeat: repeat-x;
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);}
+#schedule-days .ui-button.ui-state-active span{color:white;}
+#schedule-days .ui-button.ui-state-active.ui-state-hover,#schedule-days .ui-button.ui-state-active:hover{  color: white;
+  background-color: #51a351;
+  *background-color: #499249;}
+#schedule-days .ui-button.ui-corner-right{border-right:1px solid #ddd;}
+
+.ui-helper-hidden-accessible{display:none !important;}
